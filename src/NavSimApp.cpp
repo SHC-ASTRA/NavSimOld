@@ -16,10 +16,14 @@ class NavSimApp : public App {
 
 void NavSimApp::setup()
 {
+	this->setWindowSize(400, 400);
+	this->getWindow()->setTitle("2d Navigation Sim");
+	this->getWindow()->setBorderless(false);
 }
 
 void NavSimApp::mouseDown( MouseEvent event )
 {
+
 }
 
 void NavSimApp::update()
@@ -28,7 +32,6 @@ void NavSimApp::update()
 
 void NavSimApp::draw()
 {
-	gl::clear( Color( 0, 0, 0 ) ); 
 }
 
 CINDER_APP( NavSimApp, RendererGl )
