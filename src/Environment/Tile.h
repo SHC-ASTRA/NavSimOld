@@ -9,6 +9,8 @@ private:
 	terrain_type;
 
 public:
+	Tile(terrain_type t);
 	terrain_type get_terrain();
+
 		
 };
