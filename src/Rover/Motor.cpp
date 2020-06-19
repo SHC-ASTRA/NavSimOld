@@ -7,7 +7,7 @@ Motor::Motor(float x, float y)
 	rel_y = y;
 }
 
-~Motor::Motor() 
+Motor::~Motor() 
 {
 
 }
