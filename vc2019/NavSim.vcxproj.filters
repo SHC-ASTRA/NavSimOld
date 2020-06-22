@@ -60,6 +60,9 @@
     <Filter Include="Source Files\Environment">
       <UniqueIdentifier>{378a53dd-ff7b-4e8d-8e7d-717fb6b89971}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\World Manager">
+      <UniqueIdentifier>{7c24834f-f387-4424-a26a-3b1e2154211e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\NavSimApp.cpp">
@@ -371,6 +374,9 @@
     <ClCompile Include="..\src\Environment\Tile.cpp">
       <Filter>Source Files\Environment</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\World Manager\WorldManager.cpp">
+      <Filter>Source Files\World Manager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
@@ -390,6 +396,9 @@
     </ClInclude>
     <ClInclude Include="..\src\Environment\Tile.h">
       <Filter>Source Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\World Manager\WorldManager.h">
+      <Filter>Source Files\World Manager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -156,6 +156,7 @@
     <ClCompile Include="..\src\Rover\Motor.cpp" />
     <ClCompile Include="..\src\Rover\Part.cpp" />
     <ClCompile Include="..\src\Rover\Rover.cpp" />
+    <ClCompile Include="..\src\World Manager\WorldManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h" />
@@ -212,6 +213,7 @@
     <ClInclude Include="..\src\Rover\Motor.h" />
     <ClInclude Include="..\src\Rover\Part.h" />
     <ClInclude Include="..\src\Rover\Rover.h" />
+    <ClInclude Include="..\src\World Manager\WorldManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
