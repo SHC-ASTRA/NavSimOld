@@ -103,6 +103,7 @@
   <ItemGroup />
   <ItemGroup />
   <ItemGroup>
+    <ClCompile Include="..\src\Environment\Tile.cpp" />
     <ClCompile Include="..\src\NavSimApp.cpp" />
     <ClCompile Include="..\..\cinder2019\blocks\Box2D\src\Box2D\Collision\b2BroadPhase.cpp" />
     <ClCompile Include="..\..\cinder2019\blocks\Box2D\src\Box2D\Collision\b2CollideCircle.cpp" />
@@ -151,6 +152,11 @@
     <ClCompile Include="..\..\cinder2019\blocks\Box2D\src\Box2D\Rope\b2Rope.cpp" />
     <ClCompile Include="..\..\cinder2019\blocks\Clipper\src\clipper.cpp" />
     <ClCompile Include="..\..\cinder2019\blocks\Clipper\src\CinderClipper.cpp" />
+    <ClCompile Include="..\src\Rover\Lidar.cpp" />
+    <ClCompile Include="..\src\Rover\Motor.cpp" />
+    <ClCompile Include="..\src\Rover\Part.cpp" />
+    <ClCompile Include="..\src\Rover\Rover.cpp" />
+    <ClCompile Include="..\src\World Manager\WorldManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h" />
@@ -202,6 +208,12 @@
     <ClInclude Include="..\..\cinder2019\blocks\Box2D\src\Box2D\Box2d.h" />
     <ClInclude Include="..\..\cinder2019\blocks\Clipper\include\clipper.hpp" />
     <ClInclude Include="..\..\cinder2019\blocks\Clipper\include\CinderClipper.h" />
+    <ClInclude Include="..\src\Environment\Tile.h" />
+    <ClInclude Include="..\src\Rover\Lidar.h" />
+    <ClInclude Include="..\src\Rover\Motor.h" />
+    <ClInclude Include="..\src\Rover\Part.h" />
+    <ClInclude Include="..\src\Rover\Rover.h" />
+    <ClInclude Include="..\src\World Manager\WorldManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />

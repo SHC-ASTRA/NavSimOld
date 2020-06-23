@@ -6,7 +6,7 @@ enum terrain_type { obstacle, clear };
 class Tile {
 
 private:
-	terrain_type;
+	terrain_type terrain;
 
 public:
 	Tile(terrain_type t);

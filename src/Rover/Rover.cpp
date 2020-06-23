@@ -40,7 +40,7 @@ void Rover::set_rotation(float r)
 	rotation = r;
 }
 
-Motor [] Rover::get_motors()
+Motor* Rover::get_motors()
 {
 	return motors;
 }

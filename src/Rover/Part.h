@@ -1,5 +1,5 @@
 class Part {
-private:
+protected:
 
 	//rel_x and rel_y are for the relative x and y positions to the rover's center
 	float rel_x;

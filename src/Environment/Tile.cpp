@@ -2,7 +2,7 @@
 
 Tile::Tile(terrain_type t)
 {
-	terrain_type = t;
+	terrain = t;
 }
 
 terrain_type Tile::get_terrain()

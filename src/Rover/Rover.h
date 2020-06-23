@@ -6,7 +6,7 @@ private:
 	float x_pos;
 	float y_pos;
 	float rotation;
-	Motor [] motors;
+	Motor* motors;
 
 public:
 
@@ -24,7 +24,7 @@ public:
 	float get_rotation();
 	void set_rotation(float r);
 
-	Motor[] get_motors();
+	Motor* get_motors();
 
 
 	

@@ -54,6 +54,15 @@
     <Filter Include="Blocks\Clipper\include">
       <UniqueIdentifier>{6CF866C8-92F2-4890-BEC1-720B674773D4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Rover">
+      <UniqueIdentifier>{0ea75e65-03fe-4c8c-9eeb-aeab4771f2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment">
+      <UniqueIdentifier>{378a53dd-ff7b-4e8d-8e7d-717fb6b89971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\World Manager">
+      <UniqueIdentifier>{7c24834f-f387-4424-a26a-3b1e2154211e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\NavSimApp.cpp">
@@ -350,10 +359,46 @@
     <ClInclude Include="..\..\cinder2019\blocks\Clipper\include\CinderClipper.h">
       <Filter>Blocks\Clipper\include</Filter>
     </ClInclude>
+    <ClCompile Include="..\src\Rover\Lidar.cpp">
+      <Filter>Source Files\Rover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Rover\Motor.cpp">
+      <Filter>Source Files\Rover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Rover\Part.cpp">
+      <Filter>Source Files\Rover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Rover\Rover.cpp">
+      <Filter>Source Files\Rover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Environment\Tile.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\World Manager\WorldManager.cpp">
+      <Filter>Source Files\World Manager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Rover\Lidar.h">
+      <Filter>Source Files\Rover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Rover\Motor.h">
+      <Filter>Source Files\Rover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Rover\Part.h">
+      <Filter>Source Files\Rover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Rover\Rover.h">
+      <Filter>Source Files\Rover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Environment\Tile.h">
+      <Filter>Source Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\World Manager\WorldManager.h">
+      <Filter>Source Files\World Manager</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
